@@ -8,9 +8,21 @@
 </head>
 <body>
 
+  <!-- Navigation fixe -->
+  <nav id="navbar">
+    <div class="nav-logo">Adama</div>
+    <ul class="nav-liens">
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Adama</h1>
     <p>Étudiant-chercheur en informatique | Développeur web en devenir</p>
+    <a class="btn-cv" href="#" download>Télécharger mon CV</a>
   </header>
 
   <section id="apropos">
@@ -24,19 +36,43 @@
   <section id="competences">
     <h2>Mes compétences</h2>
     <ul class="liste-competences">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git & GitHub</li>
-      <li>React</li>
+      <li class="comp-item">
+        <span class="comp-nom">HTML</span>
+        <div class="barre"><div class="remplissage" style="width:85%"></div></div>
+      </li>
+      <li class="comp-item">
+        <span class="comp-nom">CSS</span>
+        <div class="barre"><div class="remplissage" style="width:75%"></div></div>
+      </li>
+      <li class="comp-item">
+        <span class="comp-nom">JavaScript</span>
+        <div class="barre"><div class="remplissage" style="width:60%"></div></div>
+      </li>
+      <li class="comp-item">
+        <span class="comp-nom">Git & GitHub</span>
+        <div class="barre"><div class="remplissage" style="width:65%"></div></div>
+      </li>
+      <li class="comp-item">
+        <span class="comp-nom">React</span>
+        <div class="barre"><div class="remplissage" style="width:40%"></div></div>
+      </li>
     </ul>
   </section>
 
   <section id="projets">
     <h2>Mes projets</h2>
-    <div class="carte-projet">
-      <h3>Ce portfolio</h3>
-      <p>Mon tout premier site, construit en HTML et CSS.</p>
+    <div class="grille-projets">
+      <div class="carte-projet">
+        <div class="carte-header">🌐</div>
+        <h3>Ce portfolio</h3>
+        <p>Mon tout premier site, construit en HTML, CSS et JavaScript.</p>
+        <a href="#" class="btn-projet">Voir le projet</a>
+      </div>
+      <div class="carte-projet bientot">
+        <div class="carte-header">🚀</div>
+        <h3>Prochain projet</h3>
+        <p>En cours de construction...</p>
+      </div>
     </div>
   </section>
 
@@ -47,7 +83,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2026 Adama — Construit avec passion</p>
+    <p>&copy; 2026 Adama — Construit avec passion depuis Bamako 🇲🇱</p>
   </footer>
 
   <script src="script.js"></script>
