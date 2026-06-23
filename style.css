@@ -1,0 +1,103 @@
+/* ===== Réinitialisation de base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* ===== En-tête ===== */
+header {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #dbeafe;
+}
+
+/* ===== Sections ===== */
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3b82f6;
+  padding-left: 12px;
+}
+
+/* ===== Compétences ===== */
+.liste-competences {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.liste-competences li {
+  background-color: #1e293b;
+  border: 1px solid #3b82f6;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* ===== Projets ===== */
+.carte-projet {
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #334155;
+}
+
+.carte-projet h3 {
+  color: #60a5fa;
+  margin-bottom: 8px;
+}
+
+/* ===== Contact ===== */
+#btn-contact {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#btn-contact:hover {
+  background-color: #2563eb;
+}
+
+#email-affiche {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #93c5fd;
+}
+
+/* ===== Pied de page ===== */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+  font-size: 13px;
+}
